@@ -1,0 +1,27 @@
+@CHARSET "utf-8";
+
+body {
+  background-color: #fffcf9;
+  padding-top: 60px;
+  background-image: url(/img/back.jpg);
+  background-repeat: repeat-y;
+}
+
+#header {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+/*ブラウザの横幅が980px以下のとき*/
+@media (max-width: 980px) {
+  body {
+    padding-top: 0;
+  }
+}
